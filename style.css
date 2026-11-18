@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #fffbeb; color: #292524; }
+.navbar { display: flex; justify-content: space-between; padding: 20px 10%; background: #ea580c; color: white; }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.navbar a { color: white; text-decoration: none; margin-left: 20px; }
+.hero { display: flex; align-items: center; justify-content: space-between; padding: 60px 10%; gap: 30px; }
+.hero h1 { font-size: 2.4rem; color: #9a3412; margin-bottom: 15px; }
+.hero p { margin-bottom: 20px; color: #57534e; }
+.hero img { width: 400px; border-radius: 12px; }
+.btn { background: #16a34a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; }
+.features { padding: 60px 10%; text-align: center; background: white; }
+.grid { display: flex; gap: 20px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }
+.card { background: #fff7ed; padding: 25px; width: 260px; border-radius: 8px; border: 1px solid #fed7aa; }
+.card h3 { color: #ea580c; margin-bottom: 10px; }
+footer { background: #292524; color: white; text-align: center; padding: 30px; }
